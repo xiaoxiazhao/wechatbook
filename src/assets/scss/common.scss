@@ -1,0 +1,23 @@
+$browser-default-font-size: 75px !default;
+
+@function px2rem($px){
+  @return $px / $browser-default-font-size * 1rem;
+}
+@mixin  box-sizing($sizing){
+  -webkit-box-sizing:$sizing;
+  -moz-box-sizing:$sizing;
+  box-sizing:$sizing;
+}
+
+$bg: #E7E7E7;
+$primary: #ffde00;
+$white: #fff;
+$border-grey: #dedede;
+$grey-text: #787878;
+$black-text: #1e1e1e;
+
+body{
+	background:$bg;
+	width:100%;
+	height:auto;
+}

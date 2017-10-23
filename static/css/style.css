@@ -1,0 +1,60 @@
+/*vue-awesome-scroller*/
+[data-dpr='1'] .pull-to-refresh-layer .text, [data-dpr='1'] .loading-layer .no-data-text {
+  font-size: 12px!important;
+}
+[data-dpr='2'] .pull-to-refresh-layer .text, [data-dpr='2'] .loading-layer .no-data-text {
+  font-size: 24px!important;
+}
+[data-dpr='3'] .pull-to-refresh-layer .text, [data-dpr='3'] .loading-layer .no-data-text {
+  font-size: 36px!important;
+}
+.pull-to-refresh-layer .text, .loading-layer .no-data-text {
+  text-align: center;
+}
+
+/*cxlt-vue2-toastr*/
+[data-dpr='1'] .cxlt-toastr-container {
+  font-size: 14px;
+}
+[data-dpr='2'] .cxlt-toastr-container {
+  font-size: 28px;
+}
+[data-dpr='3'] .cxlt-toastr-container {
+  font-size: 42px;
+}
+.cxlt-toastr-container > .toast {
+  width: 8rem!important;
+}
+
+/*scroller*/
+.no-transform {
+  transform: none!important;
+}
+
+/*font*/
+*:not(.fa) {
+  font-family: HelveticaNeue-Light, Arial, sans-serif;
+}
+div {
+  position: relative;
+}
+
+/*pc适配*/
+body {
+  text-align: center;
+}
+.top-container {
+  display:inline-block;
+  width: 10rem;
+  height: 100%;
+}
+
+/*商品详情*/
+.detail-img-list img {
+  width: 100%;
+  height: auto;
+}
+/*光标*/
+.handcursor {
+  cursor: pointer;
+}
